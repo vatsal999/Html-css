@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Noto+Sans+JP:wght@300&display=swap');
+
+*{
+    background-color: #080808;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5% 10px 5%;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+    border-width: 1px;
+
+}
+.logo{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-weight: 400px;
+    font-size: 35px;
+}
+
+li{
+    display:inline-block ;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #ffffff;
+    padding: 0px 10px;
+   transition: ease 0.4s;
+}
+
+
+a:hover{
+    color: #080808;
+    background-color: #ffffff;
+
+}
